@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+width: 100%;
+height: 10vh;
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding-left: 15px;
+}
+button{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-left: 80px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.section{
+    height: 73.3vh;
+    width: 100%;
+}
+table,td,th{
+    border: 1px solid rgba(199, 182, 182, 0.74);
+    text-align: left;
+    padding-left: 15px;
+}
+th{
+    height: 50px;
+}
+td{
+    height: 70px;
+}
+table{
+    margin-left: 80px;
+    width: 90%;
+    border-collapse: collapse;
+}
+.em tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.em tr:hover {
+    background-color: #ddd;
+}
+.btn2{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid rgba(199, 182, 182, 0.74);
+    align-items: flex-start;
+}
+.last{
+    border-bottom: none;
+}
+.btn2 .one,.btn2 .three{
+    background-color: rgb(23,162,184);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2 .two{
+    background-color: rgb(220,53,69);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 8.3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
